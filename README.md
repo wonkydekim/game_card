@@ -1,1 +1,1 @@
-# game_card
+https://wonkydekim.github.io/game_card/
