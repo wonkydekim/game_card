@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Рекорды</title>
+    <link rel = "stylesheet" href = "css/rating.css">
+</head>
+<body>
+    <h2 class = "heading"> Memory Game</h2>
+    <h3 class = "description"> Рейтинг игроков</h3>
+    <div class = "buttons-game-board">
+        <a href = "index.html" type = "button" id = "back-game"> Вернуться в игру </a>
+    </div>
+    <div id = "result">
+        <span>Имя</span><input id = "txtpname" type = "text" class = "c1">
+        <span>Дата</span><input id = "txtpaddr" type = "date" class = "c1">
+        <span>Попытки</span><input id = "txttry" type = "text" class = "c1">
+        <span>Время</span><input id = "txttime" type = "time" class = "c1">
+        <span>Размер</span>
+        <select class = "c1">
+            <option value="4x3">4x3</option>
+            <option value="4x4">4x4</option>
+            <option value="6x4">6x4</option>
+        </select>
+    </div>
+    <div id = "save-buttons">
+        <input id = "btnsave" type="button" value="Сохранить" />
+        <input id = "btnclear" type="button" value="Очистить поля" />
+        <input id = "btnclearstorage" type="button" value="Очистить таблицу рекордов" />
+    </div>
+    <div id = "dvcontainer">
+    </div>
+    <script  src="js/rating.js"></script>
+</body>
+</html>

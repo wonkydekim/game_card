@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Найди пару</title>
+    <link rel = "stylesheet" href = "css/style.css">
+</head>
+<body>
+    <h2 class = "heading"> Memory Game</h2>
+    <h3 class="description"> Найди все пары</h3>
+    <div class = "buttons-game-board">
+        <label id = "text-change-board"> Размер игрового поля: </label>
+        <button type = "button" id = "change-game-board"> Поле 4x3 </button>
+        <button type = "button" id = "change-game-board2"> Поле 4х4 </button>
+        <button type = "button" id = "change-game-board3"> Поле 6х4 </button>
+    </div>
+    <div id = "timer-try">
+        <span id = "time-text">Время: <span id = "minutes">00</span>:<span id = "seconds">00</span>
+        <span id = "try-text"> Попытки: </span><span id = "try">0</span>
+    </div>
+    <!-- игровое поле -->
+    <div id = "game-board">
+
+        <!-- карточки на игровом поле
+        <div class = "card visible">
+            <div class = "card-inner">
+                <div class = "card-front"></div>
+                <div class = "card-back"></div>
+            </div>
+        </div> -->
+
+    </div>
+
+    <h2 id = "victory-message"></h2>
+    <h1 id = "result-message"></h1>
+    <button type = "button" id = "new-game-button"> Новая игра </button>
+    <a href = "rating.html" type = "button" id = "rating-button"> Рейтинговая таблица </a>
+    <script src="js/checkscreen.js"></script>
+</body>
+</html>
